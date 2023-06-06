@@ -1,0 +1,9 @@
+clear
+close
+clc
+s=tf('s')
+g1=10/(5*s+1)
+get(g1);
+g=g1;
+set(g,'inputdelay',2)
+step(g,g1,'--')

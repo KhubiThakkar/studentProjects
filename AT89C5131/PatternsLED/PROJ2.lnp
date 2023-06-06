@@ -1,0 +1,4 @@
+"STARTUP.obj",
+"fileproj2.obj" 
+TO "PROJ2" 
+RAMSIZE(256) 

@@ -1,0 +1,270 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+D:\noobie\micro coding\AT89C5131\PROJ2.uv2
+Project File Date:  09/05/2020
+
+<h2>Output:</h2>
+compiling fileproj2.c...
+FILEPROJ2.C(5): error C141: syntax error near 'sbit'
+FILEPROJ2.C(5): error C202: 'led1': undefined identifier
+FILEPROJ2.C(6): error C141: syntax error near 'sbit'
+FILEPROJ2.C(6): error C202: 'led2': undefined identifier
+FILEPROJ2.C(7): error C141: syntax error near 'sbit'
+FILEPROJ2.C(7): error C202: 'led3': undefined identifier
+FILEPROJ2.C(8): error C141: syntax error near 'sbit'
+FILEPROJ2.C(8): error C202: 'led4': undefined identifier
+FILEPROJ2.C(9): error C141: syntax error near 'sbit'
+FILEPROJ2.C(9): error C202: 'led5': undefined identifier
+FILEPROJ2.C(10): error C141: syntax error near 'sbit'
+FILEPROJ2.C(10): error C202: 'led6': undefined identifier
+FILEPROJ2.C(11): error C141: syntax error near 'sbit'
+FILEPROJ2.C(11): error C202: 'led7': undefined identifier
+FILEPROJ2.C(12): error C141: syntax error near 'sbit'
+FILEPROJ2.C(12): error C202: 'led8': undefined identifier
+FILEPROJ2.C(14): error C141: syntax error near 'sbit'
+FILEPROJ2.C(14): error C202: 'input1': undefined identifier
+FILEPROJ2.C(15): error C141: syntax error near 'sbit'
+FILEPROJ2.C(15): error C202: 'input2': undefined identifier
+FILEPROJ2.C(16): error C141: syntax error near 'sbit'
+FILEPROJ2.C(16): error C202: 'input3': undefined identifier
+FILEPROJ2.C(17): error C141: syntax error near 'sbit'
+FILEPROJ2.C(17): error C202: 'input4': undefined identifier
+FILEPROJ2.C(20): error C202: 'input1': undefined identifier
+FILEPROJ2.C(21): error C202: 'input2': undefined identifier
+FILEPROJ2.C(22): error C202: 'input3': undefined identifier
+FILEPROJ2.C(23): error C202: 'input4': undefined identifier
+FILEPROJ2.C(26): error C202: 'input1': undefined identifier
+FILEPROJ2.C(27): error C202: 'led1': undefined identifier
+FILEPROJ2.C(29): error C202: 'led2': undefined identifier
+FILEPROJ2.C(31): error C202: 'led3': undefined identifier
+FILEPROJ2.C(33): error C202: 'led4': undefined identifier
+FILEPROJ2.C(35): error C202: 'led5': undefined identifier
+FILEPROJ2.C(37): error C202: 'led6': undefined identifier
+FILEPROJ2.C(39): error C202: 'led7': undefined identifier
+FILEPROJ2.C(41): error C202: 'led8': undefined identifier
+FILEPROJ2.C(44): error C202: 'input2': undefined identifier
+FILEPROJ2.C(45): error C202: 'led1': undefined identifier
+FILEPROJ2.C(46): error C202: 'led2': undefined identifier
+FILEPROJ2.C(47): error C202: 'led3': undefined identifier
+FILEPROJ2.C(48): error C202: 'led4': undefined identifier
+FILEPROJ2.C(49): error C202: 'led5': undefined identifier
+FILEPROJ2.C(50): error C202: 'led6': undefined identifier
+FILEPROJ2.C(51): error C202: 'led7': undefined identifier
+FILEPROJ2.C(52): error C202: 'led8': undefined identifier
+FILEPROJ2.C(54): error C202: 'led1': undefined identifier
+FILEPROJ2.C(55): error C202: 'led2': undefined identifier
+FILEPROJ2.C(56): error C202: 'led3': undefined identifier
+FILEPROJ2.C(57): error C202: 'led4': undefined identifier
+FILEPROJ2.C(58): error C202: 'led5': undefined identifier
+FILEPROJ2.C(59): error C202: 'led6': undefined identifier
+FILEPROJ2.C(60): error C202: 'led7': undefined identifier
+FILEPROJ2.C(61): error C202: 'led8': undefined identifier
+FILEPROJ2.C(64): error C202: 'input3': undefined identifier
+FILEPROJ2.C(65): error C202: 'led1': undefined identifier
+FILEPROJ2.C(66): error C202: 'led3': undefined identifier
+FILEPROJ2.C(67): error C202: 'led5': undefined identifier
+FILEPROJ2.C(68): error C202: 'led7': undefined identifier
+FILEPROJ2.C(70): error C202: 'led1': undefined identifier
+FILEPROJ2.C(71): error C202: 'led3': undefined identifier
+FILEPROJ2.C(72): error C202: 'led5': undefined identifier
+FILEPROJ2.C(73): error C202: 'led7': undefined identifier
+FILEPROJ2.C(76): error C202: 'input4': undefined identifier
+FILEPROJ2.C(77): error C202: 'led2': undefined identifier
+FILEPROJ2.C(78): error C202: 'led4': undefined identifier
+FILEPROJ2.C(79): error C202: 'led6': undefined identifier
+FILEPROJ2.C(80): error C202: 'led8': undefined identifier
+FILEPROJ2.C(82): error C202: 'led2': undefined identifier
+FILEPROJ2.C(83): error C202: 'led4': undefined identifier
+FILEPROJ2.C(84): error C202: 'led6': undefined identifier
+FILEPROJ2.C(85): error C202: 'led8': undefined identifier
+fileproj2.c - 72 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+FILEPROJ2.C(5): error C141: syntax error near 'sbit'
+FILEPROJ2.C(5): error C202: 'led1': undefined identifier
+FILEPROJ2.C(6): error C141: syntax error near 'sbit'
+FILEPROJ2.C(6): error C202: 'led2': undefined identifier
+FILEPROJ2.C(7): error C141: syntax error near 'sbit'
+FILEPROJ2.C(7): error C202: 'led3': undefined identifier
+FILEPROJ2.C(8): error C141: syntax error near 'sbit'
+FILEPROJ2.C(8): error C202: 'led4': undefined identifier
+FILEPROJ2.C(9): error C141: syntax error near 'sbit'
+FILEPROJ2.C(9): error C202: 'led5': undefined identifier
+FILEPROJ2.C(10): error C141: syntax error near 'sbit'
+FILEPROJ2.C(10): error C202: 'led6': undefined identifier
+FILEPROJ2.C(11): error C141: syntax error near 'sbit'
+FILEPROJ2.C(11): error C202: 'led7': undefined identifier
+FILEPROJ2.C(12): error C141: syntax error near 'sbit'
+FILEPROJ2.C(12): error C202: 'led8': undefined identifier
+FILEPROJ2.C(14): error C141: syntax error near 'sbit'
+FILEPROJ2.C(14): error C202: 'input1': undefined identifier
+FILEPROJ2.C(15): error C141: syntax error near 'sbit'
+FILEPROJ2.C(15): error C202: 'input2': undefined identifier
+FILEPROJ2.C(16): error C141: syntax error near 'sbit'
+FILEPROJ2.C(16): error C202: 'input3': undefined identifier
+FILEPROJ2.C(17): error C141: syntax error near 'sbit'
+FILEPROJ2.C(17): error C202: 'input4': undefined identifier
+FILEPROJ2.C(20): error C202: 'input1': undefined identifier
+FILEPROJ2.C(21): error C202: 'input2': undefined identifier
+FILEPROJ2.C(22): error C202: 'input3': undefined identifier
+FILEPROJ2.C(23): error C202: 'input4': undefined identifier
+FILEPROJ2.C(26): error C202: 'input1': undefined identifier
+FILEPROJ2.C(27): error C202: 'led1': undefined identifier
+FILEPROJ2.C(29): error C202: 'led2': undefined identifier
+FILEPROJ2.C(31): error C202: 'led3': undefined identifier
+FILEPROJ2.C(33): error C202: 'led4': undefined identifier
+FILEPROJ2.C(35): error C202: 'led5': undefined identifier
+FILEPROJ2.C(37): error C202: 'led6': undefined identifier
+FILEPROJ2.C(39): error C202: 'led7': undefined identifier
+FILEPROJ2.C(41): error C202: 'led8': undefined identifier
+FILEPROJ2.C(44): error C202: 'input2': undefined identifier
+FILEPROJ2.C(45): error C202: 'led1': undefined identifier
+FILEPROJ2.C(46): error C202: 'led2': undefined identifier
+FILEPROJ2.C(47): error C202: 'led3': undefined identifier
+FILEPROJ2.C(48): error C202: 'led4': undefined identifier
+FILEPROJ2.C(49): error C202: 'led5': undefined identifier
+FILEPROJ2.C(50): error C202: 'led6': undefined identifier
+FILEPROJ2.C(51): error C202: 'led7': undefined identifier
+FILEPROJ2.C(52): error C202: 'led8': undefined identifier
+FILEPROJ2.C(54): error C202: 'led1': undefined identifier
+FILEPROJ2.C(55): error C202: 'led2': undefined identifier
+FILEPROJ2.C(56): error C202: 'led3': undefined identifier
+FILEPROJ2.C(57): error C202: 'led4': undefined identifier
+FILEPROJ2.C(58): error C202: 'led5': undefined identifier
+FILEPROJ2.C(59): error C202: 'led6': undefined identifier
+FILEPROJ2.C(60): error C202: 'led7': undefined identifier
+FILEPROJ2.C(61): error C202: 'led8': undefined identifier
+FILEPROJ2.C(64): error C202: 'input3': undefined identifier
+FILEPROJ2.C(65): error C202: 'led1': undefined identifier
+FILEPROJ2.C(66): error C202: 'led3': undefined identifier
+FILEPROJ2.C(67): error C202: 'led5': undefined identifier
+FILEPROJ2.C(68): error C202: 'led7': undefined identifier
+FILEPROJ2.C(70): error C202: 'led1': undefined identifier
+FILEPROJ2.C(71): error C202: 'led3': undefined identifier
+FILEPROJ2.C(72): error C202: 'led5': undefined identifier
+FILEPROJ2.C(73): error C202: 'led7': undefined identifier
+FILEPROJ2.C(76): error C202: 'input4': undefined identifier
+FILEPROJ2.C(77): error C202: 'led2': undefined identifier
+FILEPROJ2.C(78): error C202: 'led4': undefined identifier
+FILEPROJ2.C(79): error C202: 'led6': undefined identifier
+FILEPROJ2.C(80): error C202: 'led8': undefined identifier
+FILEPROJ2.C(82): error C202: 'led2': undefined identifier
+FILEPROJ2.C(83): error C202: 'led4': undefined identifier
+FILEPROJ2.C(84): error C202: 'led6': undefined identifier
+FILEPROJ2.C(85): error C202: 'led8': undefined identifier
+fileproj2.c - 72 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+FILEPROJ2.C(18): error C231: 'input1': redefinition
+FILEPROJ2.C(18): error C231: 'input1': redefinition
+FILEPROJ2.C(19): error C231: 'input2': redefinition
+FILEPROJ2.C(19): error C231: 'input2': redefinition
+FILEPROJ2.C(20): error C231: 'input3': redefinition
+FILEPROJ2.C(20): error C231: 'input3': redefinition
+FILEPROJ2.C(21): error C231: 'input4': redefinition
+FILEPROJ2.C(21): error C231: 'input4': redefinition
+fileproj2.c - 8 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+fileproj2.c - 0 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+fileproj2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=226
+"PROJ2" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling fileproj2.c...
+linking...
+Program Size: data=9.0 xdata=0 code=226
+"PROJ2" - 0 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+fileproj2.c - 0 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+fileproj2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=234
+"PROJ2" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling fileproj2.c...
+linking...
+Program Size: data=9.0 xdata=0 code=234
+"PROJ2" - 0 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+fileproj2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=203
+"PROJ2" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling fileproj2.c...
+linking...
+Program Size: data=9.0 xdata=0 code=203
+"PROJ2" - 0 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+fileproj2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=247
+"PROJ2" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling fileproj2.c...
+linking...
+Program Size: data=9.0 xdata=0 code=247
+"PROJ2" - 0 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+fileproj2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=252
+"PROJ2" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling fileproj2.c...
+linking...
+Program Size: data=9.0 xdata=0 code=252
+"PROJ2" - 0 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+fileproj2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=258
+"PROJ2" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling fileproj2.c...
+linking...
+Program Size: data=9.0 xdata=0 code=258
+"PROJ2" - 0 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+fileproj2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=276
+"PROJ2" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling fileproj2.c...
+linking...
+Program Size: data=9.0 xdata=0 code=276
+"PROJ2" - 0 Error(s), 0 Warning(s).
+compiling fileproj2.c...
+fileproj2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=289
+"PROJ2" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling fileproj2.c...
+linking...
+Program Size: data=9.0 xdata=0 code=289
+"PROJ2" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>

@@ -1,0 +1,52 @@
+C51 COMPILER V8.02   FILEPROJ1                                                             08/29/2020 17:06:43 PAGE 1   
+
+
+C51 COMPILER V8.02, COMPILATION OF MODULE FILEPROJ1
+OBJECT MODULE PLACED IN fileproj1.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE fileproj1.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg5131.h>
+   2          sbit LED0 = P1^0;
+   3          sbit LED1 = P1^1;
+   4          sbit LED2 = P1^2;
+   5          sbit LED3 = P1^3;
+   6          
+   7          void delay(void);
+   8          
+   9          void main(){
+  10   1              while(1){
+  11   2                      LED0 = 1;
+  12   2                      LED1 = 1;
+  13   2                      LED2 = 1;
+  14   2                      LED3 = 1;
+  15   2                      delay();
+  16   2                      LED0 = 0;
+  17   2                      LED1 = 0;
+  18   2                      LED2 = 0;
+  19   2                      LED3 = 0;
+  20   2                      delay();
+  21   2              }
+  22   1      }
+  23          
+  24          void delay(void){
+  25   1              int i,j;
+  26   1              for(i=0; i<10; i++){
+  27   2                      for(j=0; j<10000; j++);
+  28   2              }
+  29   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     53    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

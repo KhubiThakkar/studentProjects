@@ -1,0 +1,85 @@
+C51 COMPILER V8.02   FILEPROJ3                                                             09/05/2020 17:32:11 PAGE 1   
+
+
+C51 COMPILER V8.02, COMPILATION OF MODULE FILEPROJ3
+OBJECT MODULE PLACED IN fileproj3.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE fileproj3.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <reg5131.h>
+   2          //defining bits
+   3          sfr lcd_data_port=0x90; 
+   4          sbit rs=P2^0;                   
+   5          sbit rw=P2^1;                   
+   6          sbit en=P2^2;   
+   7          
+   8          void delay(unsigned int count)  /* Function to provide delay Approx 1ms */
+   9          {
+  10   1              int i,j;
+  11   1              for(i=0;i<count;i++)
+  12   1              for(j=0;j<112;j++);
+  13   1      }
+  14          void LCD_Command (unsigned char cmd)  /* LCD16x2 command funtion */
+  15          {
+  16   1              lcd_data_port= cmd;
+  17   1              rs=0;                   /* command reg. */
+  18   1              rw=0;                   /* Write operation */
+  19   1              en=1; 
+  20   1              delay(1);
+  21   1              en=0;
+  22   1              delay(5);
+  23   1      }
+  24          void LCD_Char (unsigned char char_data)  /* LCD data write function */
+  25          {
+  26   1              lcd_data_port=char_data;
+  27   1              rs=1;                   /* Data reg.*/
+  28   1              rw=0;                   /* Write operation*/
+  29   1              en=1;                                   
+  30   1              delay(1);
+  31   1              en=0;
+  32   1              delay(5);
+  33   1      }
+  34          void LCD_String (unsigned char *str) /* Send string to LCD function */
+  35          {
+  36   1              int i;
+  37   1              for(i=0;str[i]!=0;i++)  /* Send each char of string till the NULL */
+  38   1              {
+  39   2                      LCD_Char (str[i]);  /* Call LCD data write */
+  40   2              }
+  41   1      }
+  42          void LCD_Init (void)            /* LCD Initialize function */
+  43          {       
+  44   1              delay(20);              /* LCD Power ON Initialization time >15ms */
+  45   1              LCD_Command (0x38);     /* Initialization of 16X2 LCD in 8bit mode */
+  46   1              LCD_Command (0x0C);     /* Display ON Cursor OFF */
+  47   1              LCD_Command (0x06);     /* Auto Increment cursor */
+  48   1              LCD_Command (0x01);     /* clear display */
+  49   1              LCD_Command (0x80);     /* cursor at home position */
+  50   1      }
+  51          void main()
+  52          {
+  53   1      
+  54   1              LCD_Init();             /* initialization of LCD*/
+  55   1      
+C51 COMPILER V8.02   FILEPROJ3                                                             09/05/2020 17:32:11 PAGE 2   
+
+  56   1              LCD_String("EE Department");  /* write string on 1st line of LCD*/
+  57   1      
+  58   1              while(1);               /* Infinite loop. */
+  59   1              
+  60   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    157    ----
+   CONSTANT SIZE    =     14    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       5
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,10 @@
+clear
+close
+clc
+k=10;
+tau=2.5;
+w=[0.01,0.05,0.1,2,5,10];
+g=k./(j*w).*(j*w*tau+1);
+gain=abs(g);
+phase=angle(g);
+semilogx(w,gain,w,phase,'--')
